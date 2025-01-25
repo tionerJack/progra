@@ -8,11 +8,11 @@
 ### ACTIVIDAD INTEGRADORA 1: APLICACIÓN PRÁCTICA REDES NEURONALES
 
 
-**Integrantes:** 
+**Alumno:** 
  ISMAEL RUFINO GRAJEDA MARÍN
-
+**Alumno:**
  RUBEN CRUZ GARCIA MENDEZ
-**Matrícula:**  
+ 
 **Asesor:** DR. DANIEL GONZÁLEZ SCARPULLI
 
 ---
