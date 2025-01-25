@@ -1,4 +1,19 @@
-# Práctica: Redes Neuronales Artificiales
+![Header](images/header.png)
+
+# DOCTORADO EN INGENIERÍA APLICADA
+
+## ASIGNATURA: PROGRAMACIÓN
+### UNIDAD 1
+### Práctica: Redes Neuronales Artificiales
+
+**Nombre del estudiante:** 
+ ISMAEL RUFINO GRAJEDA MARÍN
+ RUBEN CRUZ GARCIA MENDEZ 
+**Matrícula:**  
+**Asesor:** DR. DANIEL GONZÁLEZ SCARPULLI
+
+---
+
 
 ## Objetivo
 Aplicar los conceptos relacionados con las Redes Neuronales Artificiales (RNA) como uno de los paradigmas utilizados en el aprendizaje automático o aprendizaje de máquina (Machine Learning).
