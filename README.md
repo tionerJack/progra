@@ -50,7 +50,6 @@ Modificación del modelo para incluir dos capas ocultas de 3 neuronas cada una.
 - Capa de salida: 1 neurona
 
 ### Actividad 3: Red Neuronal Expandida
-Implementación de un modelo más complejo con más datos y capas.
 
 #### Datos de Entrenamiento:
 - Temperaturas Celsius: [-40, -10, 0, 8, 15, 22, 38, 45, 50, 60, 70, 80, 90, 100]
@@ -58,20 +57,18 @@ Implementación de un modelo más complejo con más datos y capas.
 
 ## Resultados
 
-### Gráficos del Modelo
-
-#### Pérdida Durante el Entrenamiento
+### Análisis de la Función de Pérdida
 ![Gráfico de Pérdida](images/loss_graph.png)
-Este gráfico muestra la disminución del error durante el entrenamiento, indicando una mejora continua en la precisión del modelo.
 
-#### Predicciones vs Valores Reales
-![Predicciones vs Reales](images/predictions_graph.png)
-Comparación entre las predicciones del modelo y los valores reales, demostrando la precisión del modelo en diferentes rangos de temperatura.
+El gráfico muestra la evolución de la pérdida (error) durante el entrenamiento:
+1. **Fase inicial (0-100 épocas)**: Se observa una rápida disminución del error desde aproximadamente 14000 hasta cerca de 500, indicando un aprendizaje acelerado inicial.
+2. **Fase intermedia (100-400 épocas)**: La reducción del error se vuelve más gradual, estabilizándose alrededor de 100.
+3. **Fase final (400-1000 épocas)**: El error se mantiene estable en un valor muy bajo, indicando que el modelo ha alcanzado un punto óptimo de convergencia.
 
 ### Análisis de Resultados
-1. El modelo logró aprender efectivamente la relación entre temperaturas Celsius y Fahrenheit
-2. La función de pérdida muestra una convergencia satisfactoria
-3. Las predicciones son precisas dentro del rango de entrenamiento
+1. El modelo muestra una convergencia exitosa, con una reducción significativa del error a lo largo del entrenamiento
+2. La estabilización de la pérdida después de 400 épocas sugiere que el modelo ha encontrado un mínimo local satisfactorio
+3. El comportamiento de la curva de pérdida indica que el modelo ha aprendido efectivamente la relación entre las temperaturas
 
 ## Conclusiones
 
@@ -79,6 +76,7 @@ Comparación entre las predicciones del modelo y los valores reales, demostrando
 2. El uso de TensorFlow y Keras facilita la implementación de modelos de redes neuronales
 3. La elección de hiperparámetros (tasa de aprendizaje, número de épocas) es crucial para el éxito del entrenamiento
 4. El modelo muestra mejor desempeño dentro del rango de datos de entrenamiento
+5. La visualización de la pérdida durante el entrenamiento permite verificar el proceso de aprendizaje y la convergencia del modelo
 
 ## Requisitos
 
