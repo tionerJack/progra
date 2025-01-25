@@ -5,7 +5,7 @@
 ## ASIGNATURA: SEMINARIO DE PROGRAMACIÓN
 
 ### UNIDAD 1
-### ACTIVIDAD INTEGRADORA 1: APLICACIÓN PRÁCTICA REDES NEURONALES--
+### ACTIVIDAD INTEGRADORA 1: APLICACIÓN PRÁCTICA REDES NEURONALES
 
 
 **Nombre del estudiante:** 
@@ -15,7 +15,6 @@
 **Asesor:** DR. DANIEL GONZÁLEZ SCARPULLI
 
 ---
-
 
 ## Objetivo
 Aplicar los conceptos relacionados con las Redes Neuronales Artificiales (RNA) como uno de los paradigmas utilizados en el aprendizaje automático o aprendizaje de máquina (Machine Learning).
@@ -35,6 +34,8 @@ Las redes neuronales artificiales son modelos simples del funcionamiento del sis
 ## Actividades Realizadas
 
 ### Actividad 1: Red Neuronal Simple
+[Ver notebook de la Actividad 1](https://github.com/tionerJack/progra/blob/main/actividad1.ipynb)
+
 Implementación de una red neuronal con una capa de entrada y una de salida para convertir temperaturas.
 
 #### Componentes:
@@ -58,6 +59,8 @@ modelo = tf.keras.Sequential([capa])
 ```
 
 ### Actividad 2: Red Neuronal con Capas Ocultas
+[Ver notebook de la Actividad 2](https://github.com/tionerJack/progra/blob/main/actividad2.ipynb)
+
 Modificación del modelo para incluir dos capas ocultas de 3 neuronas cada una.
 
 #### Componentes:
@@ -67,6 +70,7 @@ Modificación del modelo para incluir dos capas ocultas de 3 neuronas cada una.
 - Capa de salida: 1 neurona
 
 ### Actividad 3: Red Neuronal Expandida
+[Ver notebook de la Actividad 3](https://github.com/tionerJack/progra/blob/main/actividad3.ipynb)
 
 #### Arquitectura del Modelo
 ```
