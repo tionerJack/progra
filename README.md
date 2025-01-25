@@ -51,6 +51,53 @@ Modificación del modelo para incluir dos capas ocultas de 3 neuronas cada una.
 
 ### Actividad 3: Red Neuronal Expandida
 
+#### Arquitectura del Modelo
+```
+Modelo: Sequential
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense (Dense)                (None, 8)                 16        
+                                                                
+dense_1 (Dense)             (None, 6)                 54        
+                                                                
+dense_2 (Dense)             (None, 4)                 28        
+                                                                
+dense_3 (Dense)             (None, 1)                 5         
+=================================================================
+Total params: 103 (412 bytes)
+Trainable params: 103 (412 bytes)
+Non-trainable params: 0 (0 bytes)
+_________________________________________________________________
+```
+
+#### Componentes del Modelo:
+1. **Capa de Entrada + Primera Capa Oculta**:
+   - Unidades: 8 neuronas
+   - Función de activación: ReLU
+   - Parámetros: 16 (8 pesos + 8 sesgos)
+
+2. **Segunda Capa Oculta**:
+   - Unidades: 6 neuronas
+   - Función de activación: ReLU
+   - Parámetros: 54 (48 pesos + 6 sesgos)
+
+3. **Tercera Capa Oculta**:
+   - Unidades: 4 neuronas
+   - Función de activación: ReLU
+   - Parámetros: 28 (24 pesos + 4 sesgos)
+
+4. **Capa de Salida**:
+   - Unidades: 1 neurona
+   - Función de activación: Lineal
+   - Parámetros: 5 (4 pesos + 1 sesgo)
+
+#### Hiperparámetros:
+- Optimizador: Adam
+- Tasa de aprendizaje: 0.01
+- Función de pérdida: Error Cuadrático Medio (MSE)
+- Épocas de entrenamiento: 1000
+
 #### Datos de Entrenamiento:
 - Temperaturas Celsius: [-40, -10, 0, 8, 15, 22, 38, 45, 50, 60, 70, 80, 90, 100]
 - Temperaturas Fahrenheit: [-40, 14, 32, 46, 59, 72, 100, 113, 122, 140, 158, 176, 194, 212]
